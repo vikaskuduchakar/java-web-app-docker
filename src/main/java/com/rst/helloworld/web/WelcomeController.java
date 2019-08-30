@@ -36,6 +36,7 @@ public class WelcomeController {
 
 	@RequestMapping(value = "/hello/{name:.+}", method = RequestMethod.GET)
 	public ModelAndView hello(@PathVariable("name") String name) {
+		
 
 		logger.debug("hello() is executed - $name {}", name);
 
