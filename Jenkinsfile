@@ -19,16 +19,11 @@ node{
     
     stage ('dockerpush'){
         withCredentials([string(credentialsId: 'nexusid', variable: 'pwd')]) {
-    // some block
-
-        
-            
+                      
             sh "docker login -u admin -p ${pwd} 13.127.217.37:8083 "
-    
-            
+                
         sh " docker push 13.127.217.37:8083/gichgiligili:$BUILD_NUMBER"       
-    
-
+   
         }
     }
 
