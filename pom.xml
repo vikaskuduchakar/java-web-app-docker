@@ -102,12 +102,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.232.61.247:4000/repository/Test-artifact/</url>
+	      <url>http://13.232.61.247:8081/repository/artifact-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.232.61.247:4000/repository/Test-artifacts-snap/</url>
+	      <url>http://13.232.61.247:8081/repository/artifact-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement> 
 	
